@@ -1,4 +1,3 @@
-//https://www.codechef.com/APRIL16/problems/COLOR
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -24,9 +23,9 @@ int main()
                 cb++;
             else{}
         }
-        int mx1,mx;
+       /* int mx1,mx;
         mx1=max(cr,cg);
-        mx=max(mx1,cb);
+        mx=max(mx1,cb);*/
         cout << n-mx << endl;
 
     }
